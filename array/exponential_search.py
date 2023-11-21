@@ -16,6 +16,10 @@ Output: Element found at index 1
 Exponential search involves two steps:  
     1- Find range where element is present
     2- Do Binary Search in above found range.
+
+
+Time complexity: O(log n)
+Space complexity: O(1)
 """
 
 
