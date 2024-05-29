@@ -9,3 +9,4 @@ Python Algorithms Implementation.
 
 ## Sorting Algorithms
 - [**Bubble Sort**](./sortong%20algorithms/bubble_sort.py)
+- [**Selection Sort**](./sortong%20algorithms/selection_sort.py)
