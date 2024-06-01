@@ -24,13 +24,14 @@ def bubble_sort(list_: List[Any]) -> Tuple[List[Any], int]:
     return list_, steps
 
 
+print("Bubble Sort Algorithm: \n")
+
 unsorted_list = [30, 20, 18, 17, 15, 10, 8, 6, 3, 2]
+print("Unsorted: ", unsorted_list, "\n")
 
 start = time.perf_counter()
 sorted_list, steps = bubble_sort(unsorted_list)
 end = time.perf_counter()
 
-print("Bubble Sort Algorithm: \n")
 print(f"Time for {len(unsorted_list)} Elements is: {str(steps)}")
-print("Unsorted: ", unsorted_list, "\n")
 print("Sorted: ", sorted_list, "\n")
