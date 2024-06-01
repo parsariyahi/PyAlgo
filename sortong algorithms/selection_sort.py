@@ -26,13 +26,14 @@ def selection_sort(list_: List[Any]) -> Tuple[List[Any], int]:
     return list_, steps
 
 
+print("Selection Sort Algorithm: \n")
+
 unsorted_list = [30, 20, 18, 17, 15]
+print("Unsorted: ", unsorted_list, "\n")
 
 start = time.perf_counter()
 sorted_list, steps = selection_sort(unsorted_list)
 end = time.perf_counter()
 
-print("Bubble Sort Algorithm: \n")
 print(f"Time for {len(unsorted_list)} Elements is: {str(steps)}")
-print("Unsorted: ", unsorted_list, "\n")
 print("Sorted: ", sorted_list, "\n")
