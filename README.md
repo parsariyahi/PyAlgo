@@ -8,5 +8,6 @@ Python Algorithms Implementation.
 - [**Linear Search**](./searching%20algorithms/linear_search.py)
 
 ## Sorting Algorithms
-- [**Bubble Sort**](./sortong%20algorithms/bubble_sort.py)
-- [**Selection Sort**](./sortong%20algorithms/selection_sort.py)
+- [**Bubble Sort**](./sorting%20algorithms/bubble_sort.py)
+- [**Selection Sort**](./sorting%20algorithms/selection_sort.py)
+- [**Insertion Sort**](./sorting%20algorithms/Insertion_sort.py)
